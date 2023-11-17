@@ -1,0 +1,57 @@
+
+
+body {
+  background-color: #7BD8D8;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.cuadro {
+  background-color: #C9F6F6;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+.logo {
+  width: 100px;
+  margin-right: 300px;
+  margin-bottom: -80px;
+}
+.ovalo {
+  background-color: #F6C526;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+  .formRegistro {
+    text-align: right; 
+    
+    padding: 10px;
+  }
+
+  .formRegistro input {
+   
+    border-radius: 5px; 
+
+  } 
+  
+  .formRegistro input[type="submit"] {
+    background-color: #7BD8D8;
+    color: #fff;
+    border-radius: 5px; /* Agrega bordes redondeados */
+    cursor: pointer;
+   
+  }
+  
+  .formRegistro input[type="submit"]:hover {
+    background-color: #5FBBBF;
+    
+  }
+  
+  
+  

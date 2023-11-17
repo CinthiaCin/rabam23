@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imprimir Porcentaje de Asistencia</title>
+  <link rel="stylesheet" href="../css/porcetaje.css">
+</head>
+<body>
+    <div class="cuadro">
+        <img src="../imagenes/logo.png" alt="Logo" class="logo">
+    
+        <div class="ovalo"> Porcentaje</div>
+
+
+  <div class="contenedor">
+
+    <h2>Seleccione el Trimestre:</h2>
+
+    <form id="formTrimestre">
+      <label for="trimestre">Trimestre:</label>
+      <select id="trimestre" name="trimestre">
+        <option value="primero">Primer Trimestre</option>
+        <option value="segundo">Segundo Trimestre</option>
+        <option value="tercero">Tercer Trimestre</option>
+      </select>
+
+      <button type="button" onclick="imprimirPorcentaje()">Imprimir Porcentaje</button>
+    </form>
+  </div>
+
+  <script>
+    function imprimirPorcentaje() {
+      const seleccionTrimestre = document.getElementById('trimestre').value;
+      alert(`Imprimir porcentaje para el Trimestre: ${seleccionTrimestre}`);
+    }
+  </script>
+  <a id="botonInicio" href="acceder.html">Inicio</a>
+</body>
+</html>

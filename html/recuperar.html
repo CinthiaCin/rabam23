@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recuperar</title>
+    <link rel="stylesheet" href="../css/recuperar.css">
+</head>
+<body>
+    <div class="cuadro">
+        <img src="../imagenes/logo.png" alt="Logo" class="logo">
+        
+        <div class="ovalo"> Recuperar Contraseña</div>
+        
+        
+    <div id="login-container">
+        <h1></h1>
+        <form action="">
+            <label for="email">Correo Electronico:</label>
+            <input type="email" id="email" required>
+    
+        </form>
+        <button onclick="recuperarContraseña()">Recuperar contraseña</button>
+    </div>
+    <div id="recuperar-container" style="display: none;">
+        <h1>Recuperar contraseña</h1>
+        <form action="">
+            <label for="email-recuperar">Email:</label>
+            <input type="email" id="email-recuperar" required>
+            <button type="submit">Enviar</button>
+        </form>
+        <button onclick="volverALogin()">Volver al inicio de sesión</button>
+    </div>
+
+    <script>
+        function recuperarContraseña() {
+            document.getElementById('login-container').style.display = 'none';
+            document.getElementById('recuperar-container').style.display = 'block';
+        }
+
+    </script>
+
+    </div>
+</div>
+<a id="botonInicio" href="acceder.html">Inicio</a>
+</body>
+</html>

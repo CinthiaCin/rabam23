@@ -1,0 +1,70 @@
+body {
+  background-color: #7BD8D8;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.cuadro {
+  background-color: #C9F6F6;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+  margin-right: 300px;
+  margin-bottom: -80px;
+}
+
+.ovalo {
+  background-color: #F6C526;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.contenedor {
+  text-align: center;
+}
+
+#tablaAsistencia {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#tablaAsistencia th, #tablaAsistencia td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tablaAsistencia th {
+  background-color: #f2f2f2;
+}
+
+#formulario {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+ }
+ 
+
+ 
+ button {
+  
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #000;
+  border-radius: 30px;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 16px;
+ }

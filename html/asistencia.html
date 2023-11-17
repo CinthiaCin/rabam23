@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/asistencia.css">
+  <title>Registro de Asistencia</title>
+</head>
+<body>
+
+  <div class="cuadro">
+    <img src="../imagenes/logo.png" alt="Logo" class="logo">
+    <div class="ovalo">Registro De Asitencia</div>
+
+    <div class="contenedor">
+      <p><label for="fecha">Selecciona la fecha:</label></p>
+        <input type="date" id="fecha" name="fecha" required>
+      <form id="formulario">
+        
+
+        <table id="tablaAsistencia">
+          <thead>
+            <tr>
+              <th>Nombre del Alumno</th>
+              <th>Asistencia</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Brito Cinthia Johana</td>
+              <td><input type="checkbox" class="asistenciaCheckbox" name="asistencia1"></td>
+            </tr>
+            <tr>
+              <td>Brito Cinthia</td>
+              <td><input type="checkbox" class="asistenciaCheckbox" name="asistencia2"></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <button type="button" onclick="marcarTodos()">Marcar Todos</button>
+        <button type="button" onclick="desmarcarTodos()">Desmarcar Todos</button>
+        <button type="button" onclick="guardarAsistencia()">Guardar Asistencia</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="../js/asistencia.js"></script>
+  <a id="botonInicio" href="acceder.html">Inicio</a>
+</body>
+</html>
