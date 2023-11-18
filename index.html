@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fondo y Cuadro</title>
+  <link rel="stylesheet" href="../css/Inicio.css">
+</head>
+<body>
+
+  <div class="cuadro">
+    <img src="../imagenes/logo.png" alt="Logo" class="logo">
+    
+    <div class="ovalo"> Iniciar Sesion</div>
+    
+    
+    <div class="login-form">
+        <label class="label">Correo Electrónico</label>
+        <input type="text" placeholder="Ingresa tu correo">
+     
+        <p>
+
+        </p><label class="label">Contraseña</label>
+        <input type="password" placeholder="Ingresa tu contraseña">
+     
+        
+      </div>
+      <button type="button" id="botonIngresar">Ingresar</button>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('botonIngresar').addEventListener('click', function() {
+      console.log('Redirigiendo a otra página...');
+      window.location.href = 'acceder.html';
+    });
+  </script>
+
+</body>
+</html>
