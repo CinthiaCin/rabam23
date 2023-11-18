@@ -1,4 +1,4 @@
-// ... (las funciones anteriores)
+
 function showWelcomeSection() {
     document.getElementById('loginSection').style.display = 'none';
     document.getElementById('recoverySection').style.display = 'none';
