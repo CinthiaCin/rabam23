@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/acceder.css">
+  <title>Página Principal</title>
+</head>
+<body>
+
+
+    <div class="cuadro">
+        <img src="./imagenes/logo.png" alt="Logo" class="logo">
+    
+        <div class="ovalo">Gestionar</div>
+
+        <div class="contenedor">
+          <button class="boton" onclick="redirigir('galumnos.html')">Lista de Alumnos</button>
+          <button class="boton">Asistencia</button>
+      </div>
+  </div>
+  
+  <script>
+      function redirigir(pagina) {
+          console.log('Redirigiendo a ' + pagina);
+          window.location.href = pagina;
+      }
+  </script>
+  <a id="botonInicio" href="acceder.html">Inicio</a>
+</body>
+</html>
